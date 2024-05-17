@@ -1,0 +1,12 @@
+.work {
+    background-color: #F6E4D3;
+    height: 500vh;
+}
+.cardWork_gallery{
+    width: 100%;
+    display: grid;
+    direction: rtl;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    align-items: flex-end;
+}

@@ -1,0 +1,17 @@
+
+
+.cardWork {
+    background-color: #EF8888;
+    border-radius: 1.5vw;
+    padding: 10px 20px;
+    width: 100%;
+    aspect-ratio: 3/4;
+    &_x2 {
+        @extend .cardWork;
+        aspect-ratio: 4/2;
+        margin-top: 20px;
+    }
+}
+.x2{
+    grid-column: span 2;
+}
