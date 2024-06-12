@@ -1,0 +1,132 @@
+
+
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 3vw);
+
+    &_head{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 5vh 0;
+        animation: Up 2s ease-out forwards;
+        &_h{
+            width: 60%;
+            animation: Up 2s ease-out forwards;
+            animation-delay: 0.5s;
+            text-align: center;
+        }
+    }
+    &_form{
+        width: 100%;
+        display: flex;
+          
+          
+        &_fig{
+            position: relative;
+            width: 20%;
+            margin: 0 10%;
+            aspect-ratio: 2/4;
+        }
+        &_img{
+            position: absolute;
+            width: 120%;
+            top: 15%;
+            left: 20%;
+        }
+        &_form{
+            position: relative;
+            width: 50%;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            align-content: flex-start;
+            justify-content: flex-end;
+            padding: 40px 40px 40px 60px;
+            background-color: #FBF1E9;
+            border-radius: 20px;
+            
+        }
+        &_name{
+            width: 60%;
+        }
+        &_phone{
+            width: calc(40% - 20px);
+        }
+        &_mail{
+            width: 100%;
+        }
+        &_message{
+            min-width: 100%;
+            min-height: 50%;
+            resize: none;
+        }
+    }
+}
+.contact_fondo{
+    background-color: #FFD292;
+    width: 90%;
+    margin: 10% 0 0 20%;
+    aspect-ratio: 2/4;
+    clip-path: polygon( 91.989% 76.646%,13.916% 100%,13.916% 100%,12.009% 100.434%,10.071% 100.628%,8.157% 100.598%,6.321% 100.362%,4.617% 99.938%,3.101% 99.342%,1.826% 98.592%,0.848% 97.705%,0.221% 96.699%,0% 95.591%,0% 31.325%,0% 31.325%,0.091% 30.42%,0.358% 29.535%,0.796% 28.678%,1.396% 27.855%,2.151% 27.073%,3.055% 26.337%,4.1% 25.655%,5.279% 25.033%,6.585% 24.478%,8.011% 23.995%,86.084% 0.641%,86.084% 0.641%,87.991% 0.207%,89.929% 0.013%,91.843% 0.043%,93.679% 0.279%,95.383% 0.703%,96.899% 1.299%,98.174% 2.049%,99.152% 2.936%,99.779% 3.942%,100% 5.05%,100% 69.316%,100% 69.316%,99.909% 70.222%,99.642% 71.106%,99.204% 71.963%,98.604% 72.786%,97.849% 73.569%,96.945% 74.304%,95.9% 74.986%,94.721% 75.608%,93.415% 76.164%,91.989% 76.646% );
+    overflow: visible;
+}
+.flt_svg {
+    visibility: hidden; 
+    position: absolute;
+    width: 0px;
+    height: 0px;
+}
+
+.box_parent
+{
+    filter: url('#flt_tag');
+}
+
+.input {
+  background-color: #FBF1E9;
+  padding: 10px 15px 5px 15px;
+  border-radius: 10px;
+  border-bottom: 5px solid #FFD292;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  outline: none;
+  font-family: "Norm";
+  font-weight: 400;
+  font-size: x-large;
+  color: #2d2a26;
+  transition: border-color 0.3s ease, color 0.3s ease;
+}
+.input:focus {
+  color: #2d2a26;
+  border-color: #FFB548;
+}
+.input:disabled {
+  color: #dde0df;
+  border-color: #dde0df;
+}
+// .input:invalid {
+//   color: #2d2a26;
+//   border-color: #EF8888;
+// }
+.input_error{
+  background-color: #f8f8f8;
+  padding: 5px 15px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  outline: none;
+  font-family: "Neutra";
+  font-weight: 500;
+  font-size: x-large;
+  color: #2d2a26;
+  transition: border-color 0.3s ease, color 0.3s ease;
+  color: #2d2a26;
+  border-color: #EE4443;
+}
