@@ -153,8 +153,6 @@
     margin-top: 40px;
   }
 }
-@media (max-width: 1024px) {
-}
 
 @media (max-width: 480px) {
   .workviewer {
@@ -318,5 +316,17 @@
     right: 20px;
     z-index: 15;
     aspect-ratio: 1/1;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  .workviewer {
+    height: 50vh;
+  }
+  .hidden {
+    height: 0;
+    overflow: hidden;
+    position: relative;
+    transition: height 1s ease;
   }
 }

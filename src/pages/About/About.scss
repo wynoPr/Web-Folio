@@ -72,8 +72,38 @@
     }
 }
 
-@media (max-width: 1024px) {
-  
+@media (max-width: 1200px) {
+  .about{
+        
+        
+        &_exp{
+            width: 100%;
+            position: relative;
+            padding-top: 20px;
+            display: flex;
+            flex-direction: column;
+            &_p{
+                width: 80%;
+                padding-left: 40px;
+                padding-top: 20px;
+                &1{
+                    margin-right: 0%;
+                }
+                
+                background-color: #F6E4D3;
+                &r{
+                    
+                    padding-right: 0;
+                }
+            }
+            &_h{
+                width: 100%;
+                margin-left: 10px;
+                margin-bottom: 20px;
+                margin-top: 40px;
+            }
+        }
+    }
 }  
 
 @media (max-width: 480px) {

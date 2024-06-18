@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes, Navigate, useLocation } from 'react-route
 import React, { useEffect, useState } from 'react';
 import "./App.scss";
 import "./index.scss";
+import "./fonts.scss";
 import Intro from './pages/Intro/Intro';
 import Work from './pages/Work/Work';
 import Navy from './components/Navy/Navy';
@@ -9,6 +10,7 @@ import About from './pages/About/About';
 import CV from './pages/CV/CV';
 import Contact from './pages/Contact/Contact';
 import Estilos from './pages/Styles/Estilos'
+import Settings from './components/Settings/Settings';
 
 export const GlobalContext = React.createContext();
 
@@ -47,6 +49,7 @@ function App() {
         <GlobalContext.Provider value={{ find, finder, lastP, setLastP, lastS, setLastS, workViewer, setWorkViewer }}>
     <BrowserRouter>
     
+    {/* <Settings/> */}
     <Navy></Navy>
     <div className='black_screen'></div>
     {lastP == 'intro' && <Intro poss='back' DY={lastS}/>}

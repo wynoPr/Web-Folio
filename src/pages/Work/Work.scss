@@ -45,7 +45,7 @@
   grid-column: span 5;
 }
 .x1{
-  width: 100%;
+  width: calc(100% - 10px);
   aspect-ratio: 3/4;
   display: flex;
   justify-content: flex-end;
@@ -53,6 +53,7 @@
 }
 
 @media (max-width: 1024px) {
+  
   
 }  
 
