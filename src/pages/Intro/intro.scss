@@ -6,6 +6,10 @@
     padding: 0;
     overflow: hidden;
     position: relative;
+    &_canva{
+        width: calc(100% - 3vw);
+        height: calc(100vh - 3vw);
+    }
     &_info{
         position: absolute;
         width: 100%;
@@ -40,10 +44,14 @@ canvas {
   
   @media (max-width: 480px) {
     .intro{
-    height: calc(100vh - 3vw) ;
+    height: calc(100vh - 40px) ;
     padding: 0;
     overflow: hidden;
     position: relative;
+    &_canva{
+        width: calc(100% - 40px);
+        height: calc(100vh - 40px);
+    }
     &_info{
         position: absolute;
         width: 100%;

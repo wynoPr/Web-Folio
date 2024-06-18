@@ -68,7 +68,7 @@ export default function Slider({imgInfo}) {
 
   return (
     <>
-        { imgInfo.length > 1 && <button  className='slider_btt back' onClick={prevStep} ><span className="material-symbols-rounded slider_btt_icon">arrow_back_ios</span></button>}
+        { imgInfo.length > 1 && <button  className='slider_btt slider_btt_back' onClick={prevStep} ><span className="material-symbols-rounded slider_btt_icon">arrow_back_ios</span></button>}
         <section className='slider'>
         
         {imgInfo.map((img, i) => (
@@ -90,7 +90,7 @@ export default function Slider({imgInfo}) {
         ))}
         
         </section>
-        { imgInfo.length > 1 && <button  className='slider_btt next' onClick={nextStep} ><span className="material-symbols-rounded slider_btt_icon">arrow_forward_ios</span></button>}
+        { imgInfo.length > 1 && <button  className='slider_btt slider_btt_next' onClick={nextStep} ><span className="material-symbols-rounded slider_btt_icon">arrow_forward_ios</span></button>}
     </>
   )
 }

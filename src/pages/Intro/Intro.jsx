@@ -117,7 +117,7 @@ const GradientAnimation = () => {
     };
   }, [setCanvasSize, drawAnimation]);
 
-  return <canvas ref={canvasRef} style={{ width: 'calc(100% - 3vw)', height: 'calc(100vh - 3vw)' }} />;
+  return <canvas ref={canvasRef} className='intro_canva'/>;
 };
   
   return (
