@@ -77,8 +77,9 @@ export default function Slider({imgInfo}) {
                 <img className='slide_img' src={img.url} alt={img.alt} />
                 </figure>
             ) : (
-                <iframe
-                className='slide'
+                <div 
+                className='slide'><iframe
+                style={{ width: '80%', height: '85%'}}
                 key={i}
                 src={img.url}
                 title="YouTube video player"
@@ -86,6 +87,7 @@ export default function Slider({imgInfo}) {
                 referrerPolicy="strict-origin-when-cross-origin"
                 allowFullScreen
                 />
+                </div>
             )
         ))}
         
