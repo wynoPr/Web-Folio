@@ -142,6 +142,19 @@
     }
   }
   
+  .cardWork:hover {
+    scale: 1;
+    transition: 0.7s ease;
+  }
+  .cardWork:hover .cardWork_title {
+    opacity: 0;
+    transition: 0.7s ease;
+  }
+  .cardWork:hover .cardWork_date {
+    opacity: 0;
+    transition: 0.7s ease;
+  }
+
     .cardWork:active {
       scale: 1.05;
       transition: 0.7s ease;
