@@ -20,7 +20,7 @@ export default function CV({poss, DY}) {
   }
   const handleDownloadPDF = () => {
     // Ruta al PDF que quieres descargar
-    const pdfURL = 'https://drive.google.com/file/d/1TYyvCKbPX8R5qOcEHeiR5pZ7LbC_-fIX/view?usp=sharing';
+    const pdfURL = 'https://drive.google.com/file/d/1D8mbXf0ab_-wVQ6uqtdZf64yDW4L8waz/view?usp=drive_link';
     
     // Abre una nueva ventana para descargar el PDF
     window.open(pdfURL, '_blank');
