@@ -17,7 +17,7 @@ export default function About({poss, DY}) {
             <p className='about_info_p h4 f-faint f-it'> 
               "It's important to consider the majority and aesthetic trends, but we must not forget that design is for everyone, and we should facilitate access to as many people as possible."
             </p>
-            <img className='about_info_img' src='https://res.cloudinary.com/drskdhhht/image/upload/v1717437350/web-folio/Recurso_4_yhahuf.png' />
+            <img className='about_info_img' src='https://res.cloudinary.com/drskdhhht/image/upload/v1721076765/Recurso_5_k0blq9.png' />
           </section>
           <section className='about_exp'>
             <h1 className='h1 about_exp_h'> Experience</h1>
