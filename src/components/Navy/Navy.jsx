@@ -64,7 +64,7 @@ export default function Navy() {
     const container = document.querySelector('.container') || document.querySelector('.container_alt');
     const back = document.getElementById('none')
     if (container && back && !undo) {
-      console.log(container.offsetHeight);
+      // console.log(container.offsetHeight);
     let altura = container.offsetHeight + 40
       back.style.height = `${altura}px`;
     }

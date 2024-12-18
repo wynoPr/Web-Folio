@@ -311,7 +311,7 @@
   }
 
   //bttns
-
+  
   .link {
     color: #2d2a26;
     transition: transform 0.3s;
@@ -367,11 +367,11 @@
     border-radius: 50%;
     transition: all 0.25s ease-out;
   }
-  .toggle:active {
+  .toggle.active {
     background-color: #ee4443;
     transition: background-color 0.25s ease-in;
   }
-  .toggle:active::after {
+  .toggle.active::after {
     transform: translateX(15px);
   }
   .toggle_icon {

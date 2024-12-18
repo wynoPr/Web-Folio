@@ -11,11 +11,11 @@ export default function Contact({poss, DY}) {
       message: ''
     });
 
-    useEffect(() => {
-      console.log(formData);
+    // useEffect(() => {
+    //   // console.log(formData);
     
       
-    }, [formData])
+    // }, [formData])
     
   
     const handleChange = (e) => {
@@ -38,7 +38,7 @@ export default function Contact({poss, DY}) {
             }
           }
         );
-        console.log('Success:', response.data);
+        // console.log('Success:', response.data);
         
       } catch (error) {
         console.error('Error:', error.response ? error.response.data : error.message);
